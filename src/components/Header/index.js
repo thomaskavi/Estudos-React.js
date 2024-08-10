@@ -1,6 +1,17 @@
+import styles from "./Header.module.css";
+
 function Header() {
   return (
-    <h1>HEADER TEST</h1>
+    <header className={styles.header}>
+      <span>Lelu Store</span>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Nova Coleção</a>
+        <a href="#">Produtos</a>
+        <a href="#">Vestidos</a>
+        <a href="#">Blusas</a>
+      </nav>
+    </header>
   )
 }
 
